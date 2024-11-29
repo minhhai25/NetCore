@@ -1,0 +1,7 @@
+E:\DevMaster\C-sharp\Lession02\Lession02\bin\Debug\Lession02.exe.config
+E:\DevMaster\C-sharp\Lession02\Lession02\bin\Debug\Lession02.exe
+E:\DevMaster\C-sharp\Lession02\Lession02\bin\Debug\Lession02.pdb
+E:\DevMaster\C-sharp\Lession02\Lession02\obj\Debug\Lession02.csproj.AssemblyReference.cache
+E:\DevMaster\C-sharp\Lession02\Lession02\obj\Debug\Lession02.csproj.CoreCompileInputs.cache
+E:\DevMaster\C-sharp\Lession02\Lession02\obj\Debug\Lession02.exe
+E:\DevMaster\C-sharp\Lession02\Lession02\obj\Debug\Lession02.pdb

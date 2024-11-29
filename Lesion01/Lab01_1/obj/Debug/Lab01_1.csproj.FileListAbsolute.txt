@@ -1,0 +1,7 @@
+E:\DevMaster\C-sharp\Lesion01\Lab01_1\obj\Debug\Lab01_1.csproj.AssemblyReference.cache
+E:\DevMaster\C-sharp\Lesion01\Lab01_1\obj\Debug\Lab01_1.csproj.CoreCompileInputs.cache
+E:\DevMaster\C-sharp\Lesion01\Lab01_1\bin\Debug\Lab01_1.exe.config
+E:\DevMaster\C-sharp\Lesion01\Lab01_1\bin\Debug\Lab01_1.exe
+E:\DevMaster\C-sharp\Lesion01\Lab01_1\bin\Debug\Lab01_1.pdb
+E:\DevMaster\C-sharp\Lesion01\Lab01_1\obj\Debug\Lab01_1.exe
+E:\DevMaster\C-sharp\Lesion01\Lab01_1\obj\Debug\Lab01_1.pdb
