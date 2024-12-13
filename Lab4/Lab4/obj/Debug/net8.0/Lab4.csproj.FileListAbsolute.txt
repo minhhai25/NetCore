@@ -1,0 +1,15 @@
+E:\DevMaster\C-sharp\Lab4\Lab4\bin\Debug\net8.0\Lab4.exe
+E:\DevMaster\C-sharp\Lab4\Lab4\bin\Debug\net8.0\Lab4.deps.json
+E:\DevMaster\C-sharp\Lab4\Lab4\bin\Debug\net8.0\Lab4.runtimeconfig.json
+E:\DevMaster\C-sharp\Lab4\Lab4\bin\Debug\net8.0\Lab4.dll
+E:\DevMaster\C-sharp\Lab4\Lab4\bin\Debug\net8.0\Lab4.pdb
+E:\DevMaster\C-sharp\Lab4\Lab4\obj\Debug\net8.0\Lab4.GeneratedMSBuildEditorConfig.editorconfig
+E:\DevMaster\C-sharp\Lab4\Lab4\obj\Debug\net8.0\Lab4.AssemblyInfoInputs.cache
+E:\DevMaster\C-sharp\Lab4\Lab4\obj\Debug\net8.0\Lab4.AssemblyInfo.cs
+E:\DevMaster\C-sharp\Lab4\Lab4\obj\Debug\net8.0\Lab4.csproj.CoreCompileInputs.cache
+E:\DevMaster\C-sharp\Lab4\Lab4\obj\Debug\net8.0\Lab4.sourcelink.json
+E:\DevMaster\C-sharp\Lab4\Lab4\obj\Debug\net8.0\Lab4.dll
+E:\DevMaster\C-sharp\Lab4\Lab4\obj\Debug\net8.0\refint\Lab4.dll
+E:\DevMaster\C-sharp\Lab4\Lab4\obj\Debug\net8.0\Lab4.pdb
+E:\DevMaster\C-sharp\Lab4\Lab4\obj\Debug\net8.0\Lab4.genruntimeconfig.cache
+E:\DevMaster\C-sharp\Lab4\Lab4\obj\Debug\net8.0\ref\Lab4.dll
