@@ -1,0 +1,15 @@
+E:\DevMaster\C-sharp\Lession5\Lession5\bin\Debug\net8.0\Lession5.exe
+E:\DevMaster\C-sharp\Lession5\Lession5\bin\Debug\net8.0\Lession5.deps.json
+E:\DevMaster\C-sharp\Lession5\Lession5\bin\Debug\net8.0\Lession5.runtimeconfig.json
+E:\DevMaster\C-sharp\Lession5\Lession5\bin\Debug\net8.0\Lession5.dll
+E:\DevMaster\C-sharp\Lession5\Lession5\bin\Debug\net8.0\Lession5.pdb
+E:\DevMaster\C-sharp\Lession5\Lession5\obj\Debug\net8.0\Lession5.GeneratedMSBuildEditorConfig.editorconfig
+E:\DevMaster\C-sharp\Lession5\Lession5\obj\Debug\net8.0\Lession5.AssemblyInfoInputs.cache
+E:\DevMaster\C-sharp\Lession5\Lession5\obj\Debug\net8.0\Lession5.AssemblyInfo.cs
+E:\DevMaster\C-sharp\Lession5\Lession5\obj\Debug\net8.0\Lession5.csproj.CoreCompileInputs.cache
+E:\DevMaster\C-sharp\Lession5\Lession5\obj\Debug\net8.0\Lession5.sourcelink.json
+E:\DevMaster\C-sharp\Lession5\Lession5\obj\Debug\net8.0\Lession5.dll
+E:\DevMaster\C-sharp\Lession5\Lession5\obj\Debug\net8.0\refint\Lession5.dll
+E:\DevMaster\C-sharp\Lession5\Lession5\obj\Debug\net8.0\Lession5.pdb
+E:\DevMaster\C-sharp\Lession5\Lession5\obj\Debug\net8.0\Lession5.genruntimeconfig.cache
+E:\DevMaster\C-sharp\Lession5\Lession5\obj\Debug\net8.0\ref\Lession5.dll
