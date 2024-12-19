@@ -1,0 +1,15 @@
+E:\DevMaster\C-sharp\pj1\pj2\bin\Debug\net8.0\pj2.exe
+E:\DevMaster\C-sharp\pj1\pj2\bin\Debug\net8.0\pj2.deps.json
+E:\DevMaster\C-sharp\pj1\pj2\bin\Debug\net8.0\pj2.runtimeconfig.json
+E:\DevMaster\C-sharp\pj1\pj2\bin\Debug\net8.0\pj2.dll
+E:\DevMaster\C-sharp\pj1\pj2\bin\Debug\net8.0\pj2.pdb
+E:\DevMaster\C-sharp\pj1\pj2\obj\Debug\net8.0\pj2.GeneratedMSBuildEditorConfig.editorconfig
+E:\DevMaster\C-sharp\pj1\pj2\obj\Debug\net8.0\pj2.AssemblyInfoInputs.cache
+E:\DevMaster\C-sharp\pj1\pj2\obj\Debug\net8.0\pj2.AssemblyInfo.cs
+E:\DevMaster\C-sharp\pj1\pj2\obj\Debug\net8.0\pj2.csproj.CoreCompileInputs.cache
+E:\DevMaster\C-sharp\pj1\pj2\obj\Debug\net8.0\pj2.sourcelink.json
+E:\DevMaster\C-sharp\pj1\pj2\obj\Debug\net8.0\pj2.dll
+E:\DevMaster\C-sharp\pj1\pj2\obj\Debug\net8.0\refint\pj2.dll
+E:\DevMaster\C-sharp\pj1\pj2\obj\Debug\net8.0\pj2.pdb
+E:\DevMaster\C-sharp\pj1\pj2\obj\Debug\net8.0\pj2.genruntimeconfig.cache
+E:\DevMaster\C-sharp\pj1\pj2\obj\Debug\net8.0\ref\pj2.dll
