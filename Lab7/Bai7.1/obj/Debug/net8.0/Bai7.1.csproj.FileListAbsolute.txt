@@ -1,0 +1,15 @@
+E:\DevMaster\C-sharp\Lab7\Bai7.1\bin\Debug\net8.0\Bai7.1.exe
+E:\DevMaster\C-sharp\Lab7\Bai7.1\bin\Debug\net8.0\Bai7.1.deps.json
+E:\DevMaster\C-sharp\Lab7\Bai7.1\bin\Debug\net8.0\Bai7.1.runtimeconfig.json
+E:\DevMaster\C-sharp\Lab7\Bai7.1\bin\Debug\net8.0\Bai7.1.dll
+E:\DevMaster\C-sharp\Lab7\Bai7.1\bin\Debug\net8.0\Bai7.1.pdb
+E:\DevMaster\C-sharp\Lab7\Bai7.1\obj\Debug\net8.0\Bai7.1.GeneratedMSBuildEditorConfig.editorconfig
+E:\DevMaster\C-sharp\Lab7\Bai7.1\obj\Debug\net8.0\Bai7.1.AssemblyInfoInputs.cache
+E:\DevMaster\C-sharp\Lab7\Bai7.1\obj\Debug\net8.0\Bai7.1.AssemblyInfo.cs
+E:\DevMaster\C-sharp\Lab7\Bai7.1\obj\Debug\net8.0\Bai7.1.csproj.CoreCompileInputs.cache
+E:\DevMaster\C-sharp\Lab7\Bai7.1\obj\Debug\net8.0\Bai7.1.sourcelink.json
+E:\DevMaster\C-sharp\Lab7\Bai7.1\obj\Debug\net8.0\Bai7.1.dll
+E:\DevMaster\C-sharp\Lab7\Bai7.1\obj\Debug\net8.0\refint\Bai7.1.dll
+E:\DevMaster\C-sharp\Lab7\Bai7.1\obj\Debug\net8.0\Bai7.1.pdb
+E:\DevMaster\C-sharp\Lab7\Bai7.1\obj\Debug\net8.0\Bai7.1.genruntimeconfig.cache
+E:\DevMaster\C-sharp\Lab7\Bai7.1\obj\Debug\net8.0\ref\Bai7.1.dll
