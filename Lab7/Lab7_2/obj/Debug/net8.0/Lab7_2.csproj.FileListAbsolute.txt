@@ -1,0 +1,15 @@
+E:\DevMaster\C-sharp\Lab7\Lab7_2\bin\Debug\net8.0\Lab7_2.exe
+E:\DevMaster\C-sharp\Lab7\Lab7_2\bin\Debug\net8.0\Lab7_2.deps.json
+E:\DevMaster\C-sharp\Lab7\Lab7_2\bin\Debug\net8.0\Lab7_2.runtimeconfig.json
+E:\DevMaster\C-sharp\Lab7\Lab7_2\bin\Debug\net8.0\Lab7_2.dll
+E:\DevMaster\C-sharp\Lab7\Lab7_2\bin\Debug\net8.0\Lab7_2.pdb
+E:\DevMaster\C-sharp\Lab7\Lab7_2\obj\Debug\net8.0\Lab7_2.GeneratedMSBuildEditorConfig.editorconfig
+E:\DevMaster\C-sharp\Lab7\Lab7_2\obj\Debug\net8.0\Lab7_2.AssemblyInfoInputs.cache
+E:\DevMaster\C-sharp\Lab7\Lab7_2\obj\Debug\net8.0\Lab7_2.AssemblyInfo.cs
+E:\DevMaster\C-sharp\Lab7\Lab7_2\obj\Debug\net8.0\Lab7_2.csproj.CoreCompileInputs.cache
+E:\DevMaster\C-sharp\Lab7\Lab7_2\obj\Debug\net8.0\Lab7_2.sourcelink.json
+E:\DevMaster\C-sharp\Lab7\Lab7_2\obj\Debug\net8.0\Lab7_2.dll
+E:\DevMaster\C-sharp\Lab7\Lab7_2\obj\Debug\net8.0\refint\Lab7_2.dll
+E:\DevMaster\C-sharp\Lab7\Lab7_2\obj\Debug\net8.0\Lab7_2.pdb
+E:\DevMaster\C-sharp\Lab7\Lab7_2\obj\Debug\net8.0\Lab7_2.genruntimeconfig.cache
+E:\DevMaster\C-sharp\Lab7\Lab7_2\obj\Debug\net8.0\ref\Lab7_2.dll
