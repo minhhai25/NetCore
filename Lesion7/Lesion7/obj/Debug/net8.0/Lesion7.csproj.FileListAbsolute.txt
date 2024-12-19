@@ -1,0 +1,15 @@
+E:\DevMaster\C-sharp\Lesion7\Lesion7\bin\Debug\net8.0\Lesion7.exe
+E:\DevMaster\C-sharp\Lesion7\Lesion7\bin\Debug\net8.0\Lesion7.deps.json
+E:\DevMaster\C-sharp\Lesion7\Lesion7\bin\Debug\net8.0\Lesion7.runtimeconfig.json
+E:\DevMaster\C-sharp\Lesion7\Lesion7\bin\Debug\net8.0\Lesion7.dll
+E:\DevMaster\C-sharp\Lesion7\Lesion7\bin\Debug\net8.0\Lesion7.pdb
+E:\DevMaster\C-sharp\Lesion7\Lesion7\obj\Debug\net8.0\Lesion7.GeneratedMSBuildEditorConfig.editorconfig
+E:\DevMaster\C-sharp\Lesion7\Lesion7\obj\Debug\net8.0\Lesion7.AssemblyInfoInputs.cache
+E:\DevMaster\C-sharp\Lesion7\Lesion7\obj\Debug\net8.0\Lesion7.AssemblyInfo.cs
+E:\DevMaster\C-sharp\Lesion7\Lesion7\obj\Debug\net8.0\Lesion7.csproj.CoreCompileInputs.cache
+E:\DevMaster\C-sharp\Lesion7\Lesion7\obj\Debug\net8.0\Lesion7.sourcelink.json
+E:\DevMaster\C-sharp\Lesion7\Lesion7\obj\Debug\net8.0\Lesion7.dll
+E:\DevMaster\C-sharp\Lesion7\Lesion7\obj\Debug\net8.0\refint\Lesion7.dll
+E:\DevMaster\C-sharp\Lesion7\Lesion7\obj\Debug\net8.0\Lesion7.pdb
+E:\DevMaster\C-sharp\Lesion7\Lesion7\obj\Debug\net8.0\Lesion7.genruntimeconfig.cache
+E:\DevMaster\C-sharp\Lesion7\Lesion7\obj\Debug\net8.0\ref\Lesion7.dll

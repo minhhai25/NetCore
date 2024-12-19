@@ -1,0 +1,15 @@
+E:\DevMaster\C-sharp\Lesion7\Lesion07_Exception\bin\Debug\net8.0\Lesion07_Exception.exe
+E:\DevMaster\C-sharp\Lesion7\Lesion07_Exception\bin\Debug\net8.0\Lesion07_Exception.deps.json
+E:\DevMaster\C-sharp\Lesion7\Lesion07_Exception\bin\Debug\net8.0\Lesion07_Exception.runtimeconfig.json
+E:\DevMaster\C-sharp\Lesion7\Lesion07_Exception\bin\Debug\net8.0\Lesion07_Exception.dll
+E:\DevMaster\C-sharp\Lesion7\Lesion07_Exception\bin\Debug\net8.0\Lesion07_Exception.pdb
+E:\DevMaster\C-sharp\Lesion7\Lesion07_Exception\obj\Debug\net8.0\Lesion07_Exception.GeneratedMSBuildEditorConfig.editorconfig
+E:\DevMaster\C-sharp\Lesion7\Lesion07_Exception\obj\Debug\net8.0\Lesion07_Exception.AssemblyInfoInputs.cache
+E:\DevMaster\C-sharp\Lesion7\Lesion07_Exception\obj\Debug\net8.0\Lesion07_Exception.AssemblyInfo.cs
+E:\DevMaster\C-sharp\Lesion7\Lesion07_Exception\obj\Debug\net8.0\Lesion07_Exception.csproj.CoreCompileInputs.cache
+E:\DevMaster\C-sharp\Lesion7\Lesion07_Exception\obj\Debug\net8.0\Lesion07_Exception.sourcelink.json
+E:\DevMaster\C-sharp\Lesion7\Lesion07_Exception\obj\Debug\net8.0\Lesion07_Exception.dll
+E:\DevMaster\C-sharp\Lesion7\Lesion07_Exception\obj\Debug\net8.0\refint\Lesion07_Exception.dll
+E:\DevMaster\C-sharp\Lesion7\Lesion07_Exception\obj\Debug\net8.0\Lesion07_Exception.pdb
+E:\DevMaster\C-sharp\Lesion7\Lesion07_Exception\obj\Debug\net8.0\Lesion07_Exception.genruntimeconfig.cache
+E:\DevMaster\C-sharp\Lesion7\Lesion07_Exception\obj\Debug\net8.0\ref\Lesion07_Exception.dll

@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesion7", "Lesion7\Lesion7.csproj", "{0458A785-4C8D-4F4A-AE47-400C806F260F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesion07_Exception", "Lesion07_Exception\Lesion07_Exception.csproj", "{68DC5F05-399D-4DC6-82A6-45C205E7F90B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0458A785-4C8D-4F4A-AE47-400C806F260F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0458A785-4C8D-4F4A-AE47-400C806F260F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0458A785-4C8D-4F4A-AE47-400C806F260F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0458A785-4C8D-4F4A-AE47-400C806F260F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68DC5F05-399D-4DC6-82A6-45C205E7F90B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68DC5F05-399D-4DC6-82A6-45C205E7F90B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68DC5F05-399D-4DC6-82A6-45C205E7F90B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68DC5F05-399D-4DC6-82A6-45C205E7F90B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A58B7A42-D60B-41FB-B76A-AEB3D868D27E}
+	EndGlobalSection
+EndGlobal
