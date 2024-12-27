@@ -1,0 +1,15 @@
+E:\DevMaster\C-sharp\Lession9_ontap\QLBanSach\bin\Debug\net8.0\QLBanSach.exe
+E:\DevMaster\C-sharp\Lession9_ontap\QLBanSach\bin\Debug\net8.0\QLBanSach.deps.json
+E:\DevMaster\C-sharp\Lession9_ontap\QLBanSach\bin\Debug\net8.0\QLBanSach.runtimeconfig.json
+E:\DevMaster\C-sharp\Lession9_ontap\QLBanSach\bin\Debug\net8.0\QLBanSach.dll
+E:\DevMaster\C-sharp\Lession9_ontap\QLBanSach\bin\Debug\net8.0\QLBanSach.pdb
+E:\DevMaster\C-sharp\Lession9_ontap\QLBanSach\obj\Debug\net8.0\QLBanSach.GeneratedMSBuildEditorConfig.editorconfig
+E:\DevMaster\C-sharp\Lession9_ontap\QLBanSach\obj\Debug\net8.0\QLBanSach.AssemblyInfoInputs.cache
+E:\DevMaster\C-sharp\Lession9_ontap\QLBanSach\obj\Debug\net8.0\QLBanSach.AssemblyInfo.cs
+E:\DevMaster\C-sharp\Lession9_ontap\QLBanSach\obj\Debug\net8.0\QLBanSach.csproj.CoreCompileInputs.cache
+E:\DevMaster\C-sharp\Lession9_ontap\QLBanSach\obj\Debug\net8.0\QLBanSach.sourcelink.json
+E:\DevMaster\C-sharp\Lession9_ontap\QLBanSach\obj\Debug\net8.0\QLBanSach.dll
+E:\DevMaster\C-sharp\Lession9_ontap\QLBanSach\obj\Debug\net8.0\refint\QLBanSach.dll
+E:\DevMaster\C-sharp\Lession9_ontap\QLBanSach\obj\Debug\net8.0\QLBanSach.pdb
+E:\DevMaster\C-sharp\Lession9_ontap\QLBanSach\obj\Debug\net8.0\QLBanSach.genruntimeconfig.cache
+E:\DevMaster\C-sharp\Lession9_ontap\QLBanSach\obj\Debug\net8.0\ref\QLBanSach.dll
