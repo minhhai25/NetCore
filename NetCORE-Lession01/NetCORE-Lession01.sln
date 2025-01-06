@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetCORE-Lession01", "NetCORE-Lession01\NetCORE-Lession01.csproj", "{F901AB84-5B0B-4839-BECB-63CA9E526C01}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NETCORE_Lesion01_MVC", "NETCORE_Lesion01_MVC\NETCORE_Lesion01_MVC.csproj", "{C5DB3BF8-0C13-405B-B08C-4C00AA0D22FC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F901AB84-5B0B-4839-BECB-63CA9E526C01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F901AB84-5B0B-4839-BECB-63CA9E526C01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F901AB84-5B0B-4839-BECB-63CA9E526C01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F901AB84-5B0B-4839-BECB-63CA9E526C01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5DB3BF8-0C13-405B-B08C-4C00AA0D22FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5DB3BF8-0C13-405B-B08C-4C00AA0D22FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5DB3BF8-0C13-405B-B08C-4C00AA0D22FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5DB3BF8-0C13-405B-B08C-4C00AA0D22FC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {64472255-4EB3-4BA0-BCF4-9A9803D56000}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\NETCORE_Lesion01_MVC.props" />
+</Project>
