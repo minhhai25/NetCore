@@ -1,19 +1,25 @@
-﻿namespace BT1
+﻿using System.Collections;
+
+namespace BT1
 {
 	internal class Program
 	{
 		static void Main(string[] args)
 		{
-			List<Student> students = new List<Student>()
-			{
-				new Student() { StudId = 1, StudName = "Nguyen Van A", StudGender = "Male", StudAge = 20, StudClass = "12A1" },
-				new Student() { StudId = 2, StudName = "Tran Thi B", StudGender = "Female", StudAge = 19, StudClass = "11B2" },
-				new Student() { StudId = 3, StudName = "Le Van C", StudGender = "Male", StudAge = 21, StudClass = "12C3" },
-				new Student() { StudId = 4, StudName = "Pham Thi D", StudGender = "Female", StudAge = 18, StudClass = "10D4" },
-				new Student() { StudId = 5, StudName = "Hoang Van E", StudGender = "Male", StudAge = 22, StudClass = "12E5" }
-			}
-			;
+			//List<Student> students = new List<Student>()
+			//{
+			//	new Student() { StudId = 1, StudName = "Nguyen Van A", StudGender = "Male", StudAge = 20, StudClass = "12A1" },
+			//	new Student() { StudId = 2, StudName = "Tran Thi B", StudGender = "Female", StudAge = 19, StudClass = "11B2" },
+			//	new Student() { StudId = 3, StudName = "Le Van C", StudGender = "Male", StudAge = 21, StudClass = "12C3" },
+			//	new Student() { StudId = 4, StudName = "Pham Thi D", StudGender = "Female", StudAge = 18, StudClass = "10D4" },
+			//	new Student() { StudId = 5, StudName = "Hoang Van E", StudGender = "Male", StudAge = 22, StudClass = "12E5" }
+			//}
+			//;
+			Hashtable students = new Hashtable();
+			students.Add(1, new Student() { StudId = 1, StudName = "Nguyen Van A", StudGender = "Male", StudAge = 20, StudClass = "12A1" });
+			students.Add(2, new Student() { StudId = 2, StudName = "Tran Thi B", StudGender = "Female", StudAge = 19, StudClass = "11B2" });
 
+			try { 
 			int n;
 			do
 			{
@@ -24,6 +30,7 @@
 				Console.WriteLine("3. Calculate average mark.");
 				Console.WriteLine("4. Exit.");
 				Console.WriteLine("Option:");
+				
 				n = Convert.ToInt32(Console.ReadLine());
 				switch (n)
 				{
@@ -36,16 +43,17 @@
 							student[i] = Convert.ToInt32(Console.ReadLine());
 						}
 						student.CalAvg();
-						students.Add(student);
+						students.Add(student.StudId,student);
 						break;
 					case 2:
 						if (students.Count > 0)
 						{
-							foreach (var item in students)
-							{
-								item.Print();
+								foreach (DictionaryEntry stud in students)
+								{
+									Student s = (Student)stud.Value;
+									s.Print();  
+								}
 							}
-						}
 						else
 						{
 							Console.WriteLine("List is null Please choose option 1 to enter student information");
@@ -58,13 +66,13 @@
 						//id= Convert.ToInt32(Console.ReadLine());
 						if (students.Count > 0)
 						{
-							foreach (var item in students)
-							{
-
-								item.CalAvg();
-								Console.WriteLine("Student:{0} | Avg Mark:{1}", item.StudName, item.StudAvgMark);
-							};
-						}
+								foreach (DictionaryEntry stud in students)
+								{
+									Student s = (Student)stud.Value;
+									s.CalAvg(); 
+									Console.WriteLine("Student: {0} | Avg Mark: {1}", s.StudName, s.StudAvgMark);
+								}
+							}
 						else
 						{
 							Console.WriteLine("Please choose option 1 to enter student information ");
@@ -77,6 +85,11 @@
 						break;
 				}
 			} while (n != 4);
+			}
+			catch (Exception e) {
+				Console.WriteLine(e.Message);
+				Console.WriteLine("please enter number 1 to 4");
+			}
 		}
 	}
 }
