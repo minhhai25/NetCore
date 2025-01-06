@@ -1,0 +1,19 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+    List<Product> products = ViewBag.Products;
+}
+
+
+<h2>Danh sách sản phẩm</h2>
+
+<div class="row">
+    @foreach(var product in products){
+    <div class="col-md-3">
+        <div>
+            <img width="90%" src="./images/329318569_1523396398156896_1463148349930228978_n.jpg" />
+        </div>
+        <div>@product.Name</div>
+
+    </div>
+    }
+</div>
