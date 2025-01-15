@@ -1,0 +1,38 @@
+﻿@* @model IEnumerable<Lession02_Netcore.Models.Product> *@
+
+@{
+
+}
+
+<h2>
+	List sản phẩm
+</h2>
+<table class="table">
+	<thead>
+		<tr>
+			<th>
+				ID
+			</th>
+			<th>
+				Name
+			</th>
+			<th>
+				Descripton
+			</th>
+			<th>
+				Giá
+			</th>
+		</tr>
+	</thead>
+	<tbody>
+		@foreach (var item in Model)
+		{
+			<tr>
+				<td>@item.Id</td>
+				<td>@item.Name</td>
+				<td>@item.Description</td>
+				<td>@item.Price</td>
+			</tr>
+		}
+	</tbody>
+</table>
