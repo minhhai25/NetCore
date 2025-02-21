@@ -1344,6 +1344,22 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\products\z4077018444490_764c5b57aa908c9aef63e541ca746957.jpg))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\products\z4460382117979_74c81f4e7737987f3bcb7c743fded9bb.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>Lession7NETCORE</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Lession7NETCORE</BasePath>
+      <RelativePath>images/products/z4460382117979_74c81f4e7737987f3bcb7c743fded9bb.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\products\z4460382117979_74c81f4e7737987f3bcb7c743fded9bb.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\products\z4460382117981_106a5ce0859443a59b8b87f7a9160100.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>Lession7NETCORE</SourceId>

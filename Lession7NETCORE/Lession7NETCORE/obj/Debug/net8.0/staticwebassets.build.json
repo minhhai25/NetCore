@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "8DOWFe9Xl/0sTLDgHAdeqJx29S3NwhRQuJYi8/8rwvU=",
+  "Hash": "kkqolb74L3MoWlFvqMJOSGgV76s6q5Y7dxz41S3Yi9g=",
   "Source": "Lession7NETCORE",
   "BasePath": "_content/Lession7NETCORE",
   "Mode": "Default",
@@ -1687,6 +1687,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\products\\z4077018444490_764c5b57aa908c9aef63e541ca746957.jpg"
+    },
+    {
+      "Identity": "E:\\DevMaster\\C-sharp\\Lession7NETCORE\\Lession7NETCORE\\wwwroot\\images\\products\\z4460382117979_74c81f4e7737987f3bcb7c743fded9bb.jpg",
+      "SourceId": "Lession7NETCORE",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\DevMaster\\C-sharp\\Lession7NETCORE\\Lession7NETCORE\\wwwroot\\",
+      "BasePath": "_content/Lession7NETCORE",
+      "RelativePath": "images/products/z4460382117979_74c81f4e7737987f3bcb7c743fded9bb.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\products\\z4460382117979_74c81f4e7737987f3bcb7c743fded9bb.jpg"
     },
     {
       "Identity": "E:\\DevMaster\\C-sharp\\Lession7NETCORE\\Lession7NETCORE\\wwwroot\\images\\products\\z4460382117981_106a5ce0859443a59b8b87f7a9160100.jpg",

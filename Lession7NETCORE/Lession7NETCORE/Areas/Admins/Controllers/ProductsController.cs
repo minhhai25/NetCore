@@ -95,6 +95,7 @@ namespace Lession7NETCORE.Areas.Admins.Controllers
             {
                 return NotFound();
             }
+            //product.Images = _context.Products.FirstOrDefault(x => x.Id == id).Images;
             ViewData["CategoryId"] = new SelectList(_context.Categories, "Id", "Name", product.CategoryId);
             return View(product);
         }
@@ -104,7 +105,7 @@ namespace Lession7NETCORE.Areas.Admins.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,Name,Note,Price,Images,CategoryId")] Product product)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,Name,Note,Price,CategoryId")] Product product)
         {
             if (id != product.Id)
             {
@@ -115,6 +116,16 @@ namespace Lession7NETCORE.Areas.Admins.Controllers
             {
                 try
                 {
+                    var existingProduct= await _context.Products.FindAsync(id);
+                    if (existingProduct == null)
+                    {
+                        return NotFound();
+                    }
+                    existingProduct.Name= product.Name;
+                    existingProduct.CategoryId= product.CategoryId;
+                    existingProduct.Note= product.Note;
+                    existingProduct.Price= product.Price;
+
                     var files = HttpContext.Request.Form.Files;
                     if (files.Count > 0 && files[0].Length > 0)
                     {
@@ -125,14 +136,14 @@ namespace Lession7NETCORE.Areas.Admins.Controllers
                         using (var stream = new FileStream(path, FileMode.Create))
                         {
                             file.CopyTo(stream);
-                            product.Images = "/images/products/" + fileName;
+                            existingProduct.Images = "/images/products/" + fileName;
                         }
                     }
-                    else
-                    {
-                        product.Images = _context.Products.FirstOrDefault(x => x.Id == id).Images;
-                    }
-                    _context.Update(product);
+                    //else
+                    //{
+                    //    product.Images = _context.Products.FirstOrDefault(x => x.Id == id).Images;
+                    //}
+                    _context.Update(existingProduct);
                     await _context.SaveChangesAsync();
                 }
                 catch (DbUpdateConcurrencyException)
