@@ -12,7 +12,17 @@ namespace Lession7NETCORE
             var connectionString = builder.Configuration.GetConnectionString("BookStoreString");
             builder.Services.AddDbContext<Tes1Context>(options =>
                 options.UseSqlServer(connectionString));
-
+            //c?u hình session
+            builder.Services.AddDistributedMemoryCache();
+            //
+            builder.Services.AddHttpContextAccessor();
+            builder.Services.AddSession(opt =>
+            {
+                opt.IdleTimeout = TimeSpan.FromMinutes(5);
+                opt.Cookie.HttpOnly = true;
+                opt.Cookie.IsEssential = true;
+                opt.Cookie.Name = ".Devmaster.Session";
+            });
             // Add services to the container.
             builder.Services.AddControllersWithViews();
 
@@ -32,6 +42,8 @@ namespace Lession7NETCORE
             app.UseRouting();
 
             app.UseAuthorization();
+            //
+            app.UseSession();
             app.MapControllerRoute(
                name: "areas",
                pattern: " {area:exists}/{controller=Dashboard}/{action=Index}/{id?}");

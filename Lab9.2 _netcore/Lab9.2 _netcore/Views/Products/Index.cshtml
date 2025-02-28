@@ -1,0 +1,25 @@
+﻿@model IEnumerable<Lab9._2__netcore.Models.Product>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+   
+}
+<link  />
+<div class="row">
+    @foreach (var item in Model)
+    {
+        <div class="col-md-3 product">
+            <img src="@item.Image" alt="@item.Title" />
+            <div class="addcart">
+                <i class="fa-solid fa-cart-shopping"></i>
+                <i class="fa-solid fa-heart"></i>
+            </div>
+            <h5>@item.Title</h5>
+            <p>(@item.Size)</p>
+            <span class="old-price">@item.PriceOld VND</span>
+            <span class="price">@item.PriceNew VND</span>
+            <a href="#" class="buy-btn">🛒 Mua hàng</a>
+        </div>
+    }
+</div>
