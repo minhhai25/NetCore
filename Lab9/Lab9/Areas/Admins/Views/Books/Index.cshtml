@@ -1,0 +1,94 @@
+﻿
+@model X.PagedList.IPagedList<Lab9.Models.Book>
+@using X.PagedList.Mvc.Core
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Areas/Admins/Views/LayoutAdmin.cshtml";
+}
+
+
+
+<form action="" method="get">
+    <div class="input-group mb-3">
+        <input type="text" class="form-control" name="name" value="@ViewBag.Name" placeholder="tìm kiếm" />
+        <button class="input-group-text" id="basic-addon2" type="submit">tìm kiếm</button>
+    </div>
+</form>
+<p>
+    <a asp-action="Create">Create New</a>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.FirstOrDefault().Title)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FirstOrDefault().Author)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FirstOrDefault().Release)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FirstOrDefault().Price)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FirstOrDefault().Description)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FirstOrDefault().Picture)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FirstOrDefault().Category)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FirstOrDefault().Publisher)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Title)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Author)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Release)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Price)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Description)
+            </td>
+            <td>
+                    <img src="@Url.Content("~/" + item.Picture)" width="95" />
+              @*       <img src="@item.Picture" width="95" /> *@
+              @*   @Html.DisplayFor(modelItem => item.Picture) *@
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Category.CategoryId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Publisher.PublisherId)
+            </td>
+            <td>
+                 @* <button type="button" class="btn btn-info">Info</button> *@
+                    <a class="btn btn-outline-primary" asp-action="Edit" asp-route-id="@item.BookId">Edit</a> 
+                    <a class="btn btn-outline-success" asp-action="Details" asp-route-id="@item.BookId">Details</a> 
+                    <a class="btn btn-outline-danger" asp-action="Delete" asp-route-id="@item.BookId">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
+@Html.PagedListPager(Model, page => Url.Action("Index", new { page = page }), new PagedListRenderOptions
+{
+    LiElementClasses = new string[] { "page-item" },
+    PageClasses = new string[] { "page-link" }
+})
