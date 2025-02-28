@@ -268,3 +268,8 @@ E:\DevMaster\C-sharp\Lession7NETCORE\Lession7NETCORE\obj\Debug\net8.0\refint\Les
 E:\DevMaster\C-sharp\Lession7NETCORE\Lession7NETCORE\obj\Debug\net8.0\Lession7NETCORE.pdb
 E:\DevMaster\C-sharp\Lession7NETCORE\Lession7NETCORE\obj\Debug\net8.0\Lession7NETCORE.genruntimeconfig.cache
 E:\DevMaster\C-sharp\Lession7NETCORE\Lession7NETCORE\obj\Debug\net8.0\ref\Lession7NETCORE.dll
+E:\DevMaster\C-sharp\Lession7NETCORE\Lession7NETCORE\bin\Debug\net8.0\X.PagedList.dll
+E:\DevMaster\C-sharp\Lession7NETCORE\Lession7NETCORE\bin\Debug\net8.0\X.PagedList.Mvc.Core.dll
+E:\DevMaster\C-sharp\Lession7NETCORE\Lession7NETCORE\obj\Debug\net8.0\Lession7NETCORE.MvcApplicationPartsAssemblyInfo.cs
+E:\DevMaster\C-sharp\Lession7NETCORE\Lession7NETCORE\bin\Debug\net8.0\Microsoft.Practices.ServiceLocation.dll
+E:\DevMaster\C-sharp\Lession7NETCORE\Lession7NETCORE\bin\Debug\net8.0\XAct.Core.PCL.dll

@@ -15,6 +15,8 @@ public partial class Tes1Context : DbContext
     {
     }
 
+    public virtual DbSet<Adminuser> Adminusers { get; set; }
+
     public virtual DbSet<Category> Categories { get; set; }
 
     public virtual DbSet<Oder> Oders { get; set; }
@@ -29,6 +31,28 @@ public partial class Tes1Context : DbContext
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
+        modelBuilder.Entity<Adminuser>(entity =>
+        {
+            entity.HasKey(e => e.Id).HasName("PK__ADMINUSE__3214EC27E5C48B75");
+
+            entity.ToTable("ADMINUSERS");
+
+            entity.Property(e => e.Id).HasColumnName("ID");
+            entity.Property(e => e.Email)
+                .HasMaxLength(50)
+                .IsUnicode(false);
+            entity.Property(e => e.Name).HasMaxLength(50);
+            entity.Property(e => e.Password)
+                .HasMaxLength(255)
+                .IsUnicode(false);
+            entity.Property(e => e.Phone)
+                .HasMaxLength(15)
+                .IsUnicode(false);
+            entity.Property(e => e.UserName)
+                .HasMaxLength(50)
+                .IsUnicode(false);
+        });
+
         modelBuilder.Entity<Category>(entity =>
         {
             entity.HasKey(e => e.Id).HasName("PK__CATEGORY__3214EC272362531C");

@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using Lession7NETCORE.Models;
+using X.PagedList.Extensions;
 
 namespace Lession7NETCORE.Areas.Admins.Controllers
 {
@@ -20,10 +21,22 @@ namespace Lession7NETCORE.Areas.Admins.Controllers
         }
 
         // GET: Admins/Products
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(string name, int page = 1)
         {
-            var tes1Context = _context.Products.Include(p => p.Category);
-            return View(await tes1Context.ToListAsync());
+            var limit = 3;
+
+            ViewBag.Name = name;
+            if(name == null || name =="")
+            {
+                var tes1Context = _context.Products.Include(p => p.Category);
+                return View( tes1Context.OrderBy(x=>x.Id).ToPagedList(page,limit));
+            }
+            else
+            {
+                var tes1Context = _context.Products.Where(p=>p.Name.ToUpper().Contains(name.ToUpper())).Include(p => p.Category).ToPagedList(page, limit);
+                return View( tes1Context);
+            }
+            
         }
 
         // GET: Admins/Products/Details/5

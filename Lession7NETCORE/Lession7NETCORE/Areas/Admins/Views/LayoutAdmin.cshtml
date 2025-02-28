@@ -1,4 +1,6 @@
-﻿<!doctype html>
+﻿@using Microsoft.AspNetCore.Http;
+@inject Microsoft.AspNetCore.Http.IHttpContextAccessor HttpContextAccessor
+<!doctype html>
 <html lang="en">
 <!--begin::Head-->
 <head>
@@ -246,7 +248,21 @@
 						 class="brand-image opacity-75 shadow" />
 					<!--end::Brand Image-->
 					<!--begin::Brand Text-->
-					<span class="brand-text fw-light">AdminLTE 4</span>
+					<span class="brand-text fw-light">
+						@{
+							if (HttpContextAccessor.HttpContext.Session.GetString("AdminLogin") != null)
+							{
+								<a href="#" class="d-block">
+									@HttpContextAccessor.HttpContext.Session.GetString("AdminLogin")
+								</a>
+								<a asp-action="Logout" asp-controller="Login">Logout</a>
+							}
+							else
+							{
+								<a href="#" class="d-block"> Devmaster </a>
+							}
+						}
+					</span>
 					<!--end::Brand Text-->
 				</a>
 				<!--end::Brand Link-->

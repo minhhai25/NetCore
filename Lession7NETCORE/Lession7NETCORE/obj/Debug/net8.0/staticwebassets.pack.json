@@ -333,6 +333,10 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "E:\\DevMaster\\C-sharp\\Lession7NETCORE\\Lession7NETCORE\\wwwroot\\images\\products\\358745477_686348913279382_109109657299682357_n.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\358745477_686348913279382_109109657299682357_n.jpg"
+    },
+    {
       "Id": "E:\\DevMaster\\C-sharp\\Lession7NETCORE\\Lession7NETCORE\\wwwroot\\images\\products\\Images",
       "PackagePath": "staticwebassets\\images\\products"
     },
@@ -341,12 +345,36 @@
       "PackagePath": "staticwebassets\\images\\products\\z4077018444490_764c5b57aa908c9aef63e541ca746957.jpg"
     },
     {
+      "Id": "E:\\DevMaster\\C-sharp\\Lession7NETCORE\\Lession7NETCORE\\wwwroot\\images\\products\\z4460382116267_ac1f3e247bf26d9dba21d91832c2f69c.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\z4460382116267_ac1f3e247bf26d9dba21d91832c2f69c.jpg"
+    },
+    {
       "Id": "E:\\DevMaster\\C-sharp\\Lession7NETCORE\\Lession7NETCORE\\wwwroot\\images\\products\\z4460382117979_74c81f4e7737987f3bcb7c743fded9bb.jpg",
       "PackagePath": "staticwebassets\\images\\products\\z4460382117979_74c81f4e7737987f3bcb7c743fded9bb.jpg"
     },
     {
       "Id": "E:\\DevMaster\\C-sharp\\Lession7NETCORE\\Lession7NETCORE\\wwwroot\\images\\products\\z4460382117981_106a5ce0859443a59b8b87f7a9160100.jpg",
       "PackagePath": "staticwebassets\\images\\products\\z4460382117981_106a5ce0859443a59b8b87f7a9160100.jpg"
+    },
+    {
+      "Id": "E:\\DevMaster\\C-sharp\\Lession7NETCORE\\Lession7NETCORE\\wwwroot\\images\\products\\z4477081404179_7d028bca24cf81e5410fc7c2be37b2b6 (1).jpg",
+      "PackagePath": "staticwebassets\\images\\products\\z4477081404179_7d028bca24cf81e5410fc7c2be37b2b6 (1).jpg"
+    },
+    {
+      "Id": "E:\\DevMaster\\C-sharp\\Lession7NETCORE\\Lession7NETCORE\\wwwroot\\images\\products\\z4492660901308_c1714ce01cf9a7f2a2c5739d14c476db.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\z4492660901308_c1714ce01cf9a7f2a2c5739d14c476db.jpg"
+    },
+    {
+      "Id": "E:\\DevMaster\\C-sharp\\Lession7NETCORE\\Lession7NETCORE\\wwwroot\\images\\products\\z4492661150535_b79fceb015b090eb2ff1636ec0d66682.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\z4492661150535_b79fceb015b090eb2ff1636ec0d66682.jpg"
+    },
+    {
+      "Id": "E:\\DevMaster\\C-sharp\\Lession7NETCORE\\Lession7NETCORE\\wwwroot\\images\\products\\z4492661264658_06df102c8cc5bcd352fa56465ccc8bc6.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\z4492661264658_06df102c8cc5bcd352fa56465ccc8bc6.jpg"
+    },
+    {
+      "Id": "E:\\DevMaster\\C-sharp\\Lession7NETCORE\\Lession7NETCORE\\wwwroot\\images\\products\\z5925583656016_42971cdb0290a8cd9e00bdd0cbe8f960.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\z5925583656016_42971cdb0290a8cd9e00bdd0cbe8f960.jpg"
     },
     {
       "Id": "E:\\DevMaster\\C-sharp\\Lession7NETCORE\\Lession7NETCORE\\wwwroot\\js\\site.js",

@@ -3,8 +3,8 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace Lession7NETCORE.Areas.Admins.Controllers
 {
-    [Area("Admins")]
-    public class DashboardController : Controller
+	//[Area("Admins")]
+	public class DashboardController : BaseController
     {
         // GET: DashboardController
         public ActionResult Index()
